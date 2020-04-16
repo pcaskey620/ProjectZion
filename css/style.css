@@ -151,7 +151,7 @@ body {
   }
    
   .slider h4 {
-    font-size: 22px;
+    font-size: 30px;
     font-family: 'Oswald';
     /* color: rgba(51, 51, 51, 0.349); */
     color: white;
@@ -163,7 +163,7 @@ body {
     transform: translateX(500px);
   }
   .slider h5 {
-    font-size: 18px;
+    font-size: 24px;
     font-family: 'Oswald';
     /* color: rgba(51, 51, 51, 0.349); */
     color: white;
@@ -192,7 +192,9 @@ body {
     width: 220px;
     height: 50px;
     border-radius: 30px;
-    border: none;
+    border: solid;
+    border-style: thin;
+    border-color: white;
     font-family: Montserrat;
     font-size: 20px;
     font-weight: 100;
@@ -272,8 +274,8 @@ body {
     align-items: center;
   }
   .slider-pagination label {
-    width: 8px;
-    height: 8px;
+    width: 16px;
+    height: 16px;
     border-radius: 50%;
     display: inline-block;
     background: #fff;
@@ -285,8 +287,8 @@ body {
 .slide-radio2:checked ~ .slider-pagination .page2,
 .slide-radio3:checked ~ .slider-pagination .page3,
 .slide-radio4:checked ~ .slider-pagination .page4 {
-  width: 14px;
-  height: 14px;
+  width: 20px;
+  height: 20px;
   border: 2px solid #217011;
   background: transparent;
 }
@@ -338,10 +340,10 @@ body {
 /* Responsive */
 @media only screen and (max-width: 768px) {
     .slider h2 {
-      font-size: 20px;
+      font-size: 40px;
     }
     .slider h4 {
-      font-size: 16px;
+      font-size: 28px;
     }
    
     .slider-content {
@@ -361,10 +363,10 @@ body {
     }
    
     .number-pagination {
-      right: 2%;
+        right: 2%;
     }
     .slider-pagination {
-      left: 2%;
+        left: 2%; 
     }
    
     .slider .buy-now-btn {

@@ -1,4 +1,4 @@
-var TIMEOUT = 10000;
+var TIMEOUT = 8000;
  
 var interval = setInterval(handleNext, TIMEOUT);
  
