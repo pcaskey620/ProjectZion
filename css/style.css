@@ -413,7 +413,8 @@ h4.font-lg {
 
 .pager.pager-left {
     left: 12%;
-}
+  display: none;
+  }
 
 .pager.pager-right {
     right: 12%;
