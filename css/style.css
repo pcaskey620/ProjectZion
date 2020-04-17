@@ -338,7 +338,7 @@ body {
 }
 #nav-logo {
     margin-top: 5rem;
-    height: 10rem;
+    height: 9rem;
 }
 .text-green {
   color: #217011;
@@ -347,7 +347,7 @@ body {
     color: white;
 }
 h4.font-lg {
-    font-size: 40px;
+    font-size: 40px8
 }
 /* Responsive */
 @media only screen and (max-width: 768px) {
