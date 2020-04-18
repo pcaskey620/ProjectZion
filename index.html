@@ -12,7 +12,7 @@
     <link rel="dns-prefetch" href="//fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b824522fd1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
@@ -60,8 +60,8 @@
             <div class="slider-content">
                 <h4 class="font-lg">Zion Farms</h4>
                 <h2>Established 2013</h2>
-                <h4 class="">High quality CBD genetics, flowers, and extracts</h4>
-                <button type="button" class="buy-now-btn" name="button">About Us</button>
+                <h4 class="">High quality CBD genetics, flowers, and extracts</h4>                
+                <button type="button" class="buy-now-btn" data-toggle="modal" data-target="#modal-about-us">About Us</button>
             </div>
         </div>
     
@@ -71,7 +71,7 @@
             <div class="slider-content">
                 <h4>High Quality CBD</h4>
                 <h2>Top of the line genetics <i class="fas fa-seedling text-white"></i></h2>
-                <button type="button" class="buy-now-btn" name="button">Learn More</button>
+                <button type="button" class="buy-now-btn" name="button" data-toggle="modal" data-target="#modal-learn-more">Learn More</button>
             </div>
         </div>
     
@@ -97,7 +97,42 @@
         </div>
     </div>
     
+    <div class="modal fade" id="modal-about-us" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-full-width modal-dialog modal-fluid" role="document">
+            <div class="modal-content-full-width modal-content">
+                <div class="modal-header-full-width modal-header">
+                    <h2 class="" id="exampleModalLabel">About Zion Farms</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal-learn-more" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog-full-width modal-dialog modal-fluid" role="document">
+            <div class="modal-content-full-width modal-content">
+                <div class="modal-header-full-width modal-header">
+                    <h2 class="" id="exampleModalLabel">Learn More...</h2>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                </div>
+            </div>
+        </div>
+    </div>
+     
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
